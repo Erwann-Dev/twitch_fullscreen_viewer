@@ -1,0 +1,13 @@
+body{
+  margin: 0;
+}
+
+#twitch-embed{
+  float:left;
+  width: 97vw;
+  height: 100vh;
+}
+#but{
+  position: absolute;
+  float:right;
+}
