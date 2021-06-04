@@ -68,5 +68,5 @@ if (document.readyState === 'complete') {
 
 function other(){
   streamer = prompt("Entre le nom du streamer : ");
-  change(streamer)
+  change(streamer.toLowerCase())
 }
