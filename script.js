@@ -58,17 +58,15 @@ function change(streamer) {
 function play(){
   document.getElementById('viewer').src = "https://player.twitch.tv/?channel=monstercat&parent="+$(location).attr('host');
 }
-console.log(document.location.href)
-
-function monScript() {
-  console.log('HTML prêt !');
-  play();
-}
-
 if (document.readyState === 'complete') {
-  monScript();
+  play();
 } else {
   document.addEventListener('DOMContentLoaded', function() {
-    monScript();
+    play();
   });
+}
+
+function other(){
+  streamer = prompt("Entre le nom du streamer : ");
+  change(streamer)
 }
