@@ -11,7 +11,7 @@ function change(streamer) {
 }
 
 function play(){
-  document.getElementById('viewer').src = "https://player.twitch.tv/?channel=monstercat&parent="+$(location).attr('host');
+  document.getElementById('viewer').src = "https://player.twitch.tv/?channel=zerator&parent="+$(location).attr('host');
 }
 if (document.readyState === 'complete') {
   play();
